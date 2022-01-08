@@ -1,0 +1,155 @@
+#wel {
+    color: #23b9c7;
+    text-align: center;
+}
+
+#sp {
+    color: #6600ff;
+}
+
+.imag-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    background-color: gray;
+}
+
+.imag-1 img {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+}
+
+.imag-2 img {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+}
+
+button {
+    background-color: #23c792;
+    color: rgb(189, 39, 109);
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3), 5px 35px 27px rgba(0, 0, 0, 0.2), 15px 15px 17px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Second menu Bar ..... */
+
+.continer {
+    background-color: #23b9c7;
+    height: 100vh;
+}
+
+.menu {
+    height: 30px;
+    width: 50px;
+    background-color: #daf7a6;
+    position: absolute;
+    top: 6%;
+    float: right;
+    position: relative;
+    /* border-radius: 10px 0 10px 0; */
+    cursor: pointer;
+}
+
+.menu span {
+    width: 30px;
+    height: 3px;
+    background-color: #daf7a6;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 100;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu .l-1 {
+    background-color: #ff5733;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    text-align: center;
+}
+
+.menu .l-2 {
+    background-color: #af5b33;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+}
+
+.menu .l-3 {
+    background-color: #ff5733;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+}
+
+.cross .l-1 {
+    position: absolute;
+    transform: rotate(-45deg);
+    background-color: #23c731;
+    left: 10px;
+    top: 14px;
+}
+
+.cross .l-2 {
+    transform: translateX(-30px);
+    color: red;
+    width: 0px;
+}
+
+.cross .l-3 {
+    position: absolute;
+    transform: rotate(45deg);
+    background-color: #23c731;
+    left: 9px;
+    top: 13px;
+}
+
+@media screen and (max-width: 360px) {
+    .imag-box {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 150px;
+        height: 150px;
+        background-color: gray;
+    }
+    .imag-1 img {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+    }
+    .imag-2 img {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+    }
+    button {
+        color: rgb(189, 39, 109);
+        font-size: 15px;
+        font-weight: bolder;
+        position: absolute;
+        top: 68%;
+        left: 35%;
+        padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3), 5px 35px 27px rgba(0, 0, 0, 0.2), 15px 15px 17px rgba(0, 0, 0, 0.1);
+    }
+}
